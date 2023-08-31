@@ -1,0 +1,15 @@
+class DriverControl:
+    method drive():
+   # Default implementation for normal riding behavior
+
+class EcoMode extends DriverControl:
+    method drive():
+      # Implement specific behavior for ECO mode
+
+class SportMode extends DriverControl:
+    method drive():
+       # Implement specific behavior for SPORT mode
+
+class OffRoadMode extends DriverControl:
+    method drive():
+        # Implement specific behavior for OFF-ROAD mode
